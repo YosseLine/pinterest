@@ -1,0 +1,130 @@
+/*body{
+  font-family: serif;
+}
+
+header{
+  outline: 1px solid yellow;
+  position: fixed;
+  top: 0;
+  overflow: auto;
+}
+
+ul li a.pinterest img{
+  width: 35px;
+  display: inline-block;
+  float: left;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+ul.menu{
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.menu li{
+  float: left;
+}
+
+li.input-caja div.caja-lupa{
+  position: absolute;
+}
+
+.menu .input-caja{
+  background-color: #EFEFEF;
+  border-radius: 5px;
+  width: 100px;
+  display: block;
+}
+
+.input-caja{
+  outline: 1px solid blue;
+  width: 200px;
+}
+
+ul li.input-caja{
+  margin: 0px 16px;
+  width: 20px;
+  height: 120px;
+}*/
+
+*{
+  font-family: serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+header{
+  outline: 1px solid yellow;
+}
+
+ul.menu{
+  outline: 1px solid red;
+}
+
+.pinterest{
+ outline: 1px solid green;
+ margin: 0;
+ padding: 0;
+}
+
+
+
+ul.menu li{
+  display: inline-block;
+}
+.menu li.input-caja{
+  border-radius: 5px;
+  outline: 1px solid purple;
+  display: inline-block;
+  background-color: #EFEFEF;
+  width: 70%;
+  margin: 0 16px;
+  padding: 10px;
+  position: relative;
+  top: 10px;
+  left: 45px;
+}
+
+.menu .input-caja .caja-lupa input{
+  width: 85%;
+  background-color: inherit;
+  border: 0;
+}
+
+ul li img{
+  width: 35px;
+  margin: 0;
+  position: relative;
+  top: 10px;
+  left: 40px;
+
+}
+
+ul.menu li{
+  text-decoration: none;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.menu .input-caja .caja-lupa input{
+  width: 93%;
+  line-height: 20px;
+  font-size: 18px;
+}
+
+ul.menu div.caja-pins span i{
+  left: 100px;
+}
+
+ul.menu div.caja-pins span {
+  position: relative;
+  left: 800px;
+  bottom: 20px;
+}
