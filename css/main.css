@@ -1,130 +1,222 @@
-/*body{
-  font-family: serif;
-}
-
-header{
-  outline: 1px solid yellow;
-  position: fixed;
-  top: 0;
-  overflow: auto;
-}
-
-ul li a.pinterest img{
-  width: 35px;
-  display: inline-block;
-  float: left;
-  margin-top: 5px;
-  margin-left: 30px;
-}
-
-ul.menu{
-  text-decoration: none;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-ul.menu li{
-  float: left;
-}
-
-li.input-caja div.caja-lupa{
-  position: absolute;
-}
-
-.menu .input-caja{
-  background-color: #EFEFEF;
-  border-radius: 5px;
-  width: 100px;
-  display: block;
-}
-
-.input-caja{
-  outline: 1px solid blue;
-  width: 200px;
-}
-
-ul li.input-caja{
-  margin: 0px 16px;
-  width: 20px;
-  height: 120px;
-}*/
-
+/*Setear nuestros archivos*/
 *{
-  font-family: serif;
   box-sizing: border-box;
+  font-family: 'Source Sans Pro', serif;
   margin: 0;
   padding: 0;
 }
 
-
-
-header{
-  outline: 1px solid yellow;
+header {
+  top: 0;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
-ul.menu{
-  outline: 1px solid red;
-}
-
-.pinterest{
- outline: 1px solid green;
- margin: 0;
- padding: 0;
-}
-
-
-
-ul.menu li{
-  display: inline-block;
-}
-.menu li.input-caja{
-  border-radius: 5px;
-  outline: 1px solid purple;
-  display: inline-block;
-  background-color: #EFEFEF;
-  width: 70%;
-  margin: 0 16px;
-  padding: 10px;
-  position: relative;
-  top: 10px;
-  left: 45px;
-}
-
-.menu .input-caja .caja-lupa input{
-  width: 85%;
-  background-color: inherit;
-  border: 0;
-}
-
-ul li img{
-  width: 35px;
+ul.menu {
+  padding: 10px 0;
+  width: 100%;
   margin: 0;
-  position: relative;
-  top: 10px;
-  left: 40px;
+  border-bottom: 1px solid #d3d3d3
+ }
 
+ul.menu > li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 38%;
 }
 
-ul.menu li{
+.logo-header{
+  width: 35px
+}
+
+header ul.menu li, header ul li.emoticon{
   text-decoration: none;
   list-style: none;
+  display: inline-block;
+
+}
+
+header ul.menu li.input-caja{
+  display: inline-block;
+  position: absolute;
+  background-color: #EFEFEF;
+  border-radius: 5px;
+  margin: 0 16px;
+  width: 71%;
+  height: 35%;
+  padding: 10px;
+  left: 70px;
   font-size: 16px;
   font-weight: 700;
 }
 
+.menu .input-caja .caja-lupa{
+  width: 85%;
+  left: 15px;
+  position: relative;
+ display: inline-block;
+}
+
+i.fa.fa-search{
+  font-size: inherit;
+  display: inline-block;
+}
+
 .menu .input-caja .caja-lupa input{
   width: 93%;
+  border: none;
   line-height: 20px;
   font-size: 18px;
+  background-color: transparent;
 }
 
-ul.menu div.caja-pins span i{
-  left: 100px;
-}
-
-ul.menu div.caja-pins span {
+i.fa.fa-times{
+  font-size: inherit;
+  display: inline-block;
+  font-size: inherit;
   position: relative;
-  left: 800px;
-  bottom: 20px;
+}
+
+li.input-caja div.caja-pins{
+  display: inline-block;
+  position: relative;
+  left: 15px;
+}
+
+header ul li.emoticon{
+  position: relative;
+  left: 35%;
+  display: inline-block;
+  color: #b5b5b5;
+  font-size: 22px;
+  margin-left: 30px;
+}
+
+hr{
+  border: 1px;
+}
+
+.menu, .sub-menu {
+  text-align: center!important;
+   }
+
+ul.sub-menu div.botones{
+  border-radius: 8px;
+  text-align: center;
+  display: inline-block;
+  height: 50px;
+  margin: 5px 10px;
+  position: relative;
+}
+
+.sub-menu .botones .light{
+  text-align: center;
+  position: relative;
+  color: #fff;
+  font-weight: 600;
+  top: 10px;
+}
+
+.sub-menu .boton-1{
+  width: 90px;
+  background-image: url(http://www.bstfabrics.co.uk/ekmps/shops/footmuuffs/images/luxury-faux-fur-fabric-material-pale-pink-60-150cm-wide-sold-by-metre-34139-p.jpg);
+}
+.sub-menu .boton-2{
+  width: 60px;
+  background-image: url(http://www.bstfabrics.co.uk/ekmps/shops/footmuuffs/images/luxury-faux-fur-fabric-material-pale-pink-60-150cm-wide-sold-by-metre-34139-p.jpg);
+}
+.sub-menu .boton-3{
+  width: 50px;
+  background-image: url(http://www.bstfabrics.co.uk/ekmps/shops/footmuuffs/images/luxury-faux-fur-fabric-material-pale-pink-60-150cm-wide-sold-by-metre-34139-p.jpg);
+}
+
+.sub-menu .boton-4{
+  width: 50px;
+  background-image: url(http://www.bstfabrics.co.uk/ekmps/shops/footmuuffs/images/luxury-faux-fur-fabric-material-pale-pink-60-150cm-wide-sold-by-metre-34139-p.jpg);
+}
+.sub-menu .boton-5{
+  width: 70px;
+  background-image: url(http://www.bstfabrics.co.uk/ekmps/shops/footmuuffs/images/luxury-faux-fur-fabric-material-pale-pink-60-150cm-wide-sold-by-metre-34139-p.jpg);
+}
+.sub-menu .boton-6{
+  width: 90px;
+  background-image: url(http://www.bstfabrics.co.uk/ekmps/shops/footmuuffs/images/luxury-faux-fur-fabric-material-pale-pink-60-150cm-wide-sold-by-metre-34139-p.jpg);
+}
+.sub-menu .boton-7{
+  width: 60px;
+  background-image: url(http://www.bstfabrics.co.uk/ekmps/shops/footmuuffs/images/luxury-faux-fur-fabric-material-pale-pink-60-150cm-wide-sold-by-metre-34139-p.jpg);
+}
+.sub-menu .boton-8{
+  width: 90px;
+  background-image: url(http://www.bstfabrics.co.uk/ekmps/shops/footmuuffs/images/luxury-faux-fur-fabric-material-pale-pink-60-150cm-wide-sold-by-metre-34139-p.jpg);
+}
+.sub-menu .boton-9{
+  width: 70px;
+  background-image: url(http://www.bstfabrics.co.uk/ekmps/shops/footmuuffs/images/luxury-faux-fur-fabric-material-pale-pink-60-150cm-wide-sold-by-metre-34139-p.jpg);
+}
+
+seection {
+  margin: 170px;
+  overflow: auto;
+}
+
+.imagenes{
+  padding: 0 80px;
+  margin-top: 150px;
+  column-width: 220px;
+  column-gap: 20px;
+  display: inline-block;
+}
+
+.imagenes .posts{
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.imagenes .posts img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.imagenes .posts .text{
+    float: left;
+    width: 70%;
+    margin-top: 15px;
+    display: block;
+ }
+
+ .imagenes .posts h4{
+    margin-bottom: 10px;
+ }
+
+ .imagenes .posts .usser{
+   margin-top: 12px;
+   font-size: 15px;
+ }
+
+ .imagenes .posts .usser .circle{
+   width: 30px;
+   height: 30px;
+   background-color: #d597a1;
+   border-radius: 50px;
+   margin-right: 3px;
+   margin-top: -5px;
+   text-align: center;
+   float: left;
+ }
+
+.imagenes .posts .usser .circle .usser-letter {
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+    top: 6px;
+ }
+
+ .imagenes .posts .usser .usser-name {
+   font-weight: 700;
 }
