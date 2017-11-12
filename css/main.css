@@ -102,121 +102,93 @@ hr{
 
 .menu, .sub-menu {
   text-align: center!important;
-   }
-
-ul.sub-menu div.botones{
-  border-radius: 8px;
-  text-align: center;
-  display: inline-block;
-  height: 50px;
-  margin: 5px 10px;
-  position: relative;
+  background-color: #fff;
 }
-
-.sub-menu .botones .light{
-  text-align: center;
-  position: relative;
-  color: #fff;
-  font-weight: 600;
-  top: 10px;
-}
-
-.sub-menu .boton-1{
-  width: 90px;
-  background-image: url(http://www.bstfabrics.co.uk/ekmps/shops/footmuuffs/images/luxury-faux-fur-fabric-material-pale-pink-60-150cm-wide-sold-by-metre-34139-p.jpg);
-}
-.sub-menu .boton-2{
-  width: 60px;
-  background-image: url(http://www.bstfabrics.co.uk/ekmps/shops/footmuuffs/images/luxury-faux-fur-fabric-material-pale-pink-60-150cm-wide-sold-by-metre-34139-p.jpg);
-}
-.sub-menu .boton-3{
-  width: 50px;
-  background-image: url(http://www.bstfabrics.co.uk/ekmps/shops/footmuuffs/images/luxury-faux-fur-fabric-material-pale-pink-60-150cm-wide-sold-by-metre-34139-p.jpg);
-}
-
-.sub-menu .boton-4{
-  width: 50px;
-  background-image: url(http://www.bstfabrics.co.uk/ekmps/shops/footmuuffs/images/luxury-faux-fur-fabric-material-pale-pink-60-150cm-wide-sold-by-metre-34139-p.jpg);
-}
-.sub-menu .boton-5{
-  width: 70px;
-  background-image: url(http://www.bstfabrics.co.uk/ekmps/shops/footmuuffs/images/luxury-faux-fur-fabric-material-pale-pink-60-150cm-wide-sold-by-metre-34139-p.jpg);
-}
-.sub-menu .boton-6{
-  width: 90px;
-  background-image: url(http://www.bstfabrics.co.uk/ekmps/shops/footmuuffs/images/luxury-faux-fur-fabric-material-pale-pink-60-150cm-wide-sold-by-metre-34139-p.jpg);
-}
-.sub-menu .boton-7{
-  width: 60px;
-  background-image: url(http://www.bstfabrics.co.uk/ekmps/shops/footmuuffs/images/luxury-faux-fur-fabric-material-pale-pink-60-150cm-wide-sold-by-metre-34139-p.jpg);
-}
-.sub-menu .boton-8{
-  width: 90px;
-  background-image: url(http://www.bstfabrics.co.uk/ekmps/shops/footmuuffs/images/luxury-faux-fur-fabric-material-pale-pink-60-150cm-wide-sold-by-metre-34139-p.jpg);
-}
-.sub-menu .boton-9{
-  width: 70px;
-  background-image: url(http://www.bstfabrics.co.uk/ekmps/shops/footmuuffs/images/luxury-faux-fur-fabric-material-pale-pink-60-150cm-wide-sold-by-metre-34139-p.jpg);
-}
-
-seection {
-  margin: 170px;
-  overflow: auto;
-}
-
-.imagenes{
-  padding: 0 80px;
-  margin-top: 150px;
-  column-width: 220px;
-  column-gap: 20px;
-  display: inline-block;
-}
-
-.imagenes .posts{
-  cursor: pointer;
-  display: inline-block;
-  margin-bottom: 20px;
-}
-
-.imagenes .posts img{
+.sub-menu {
+  font-size: 16px;
+  padding-bottom: 0;
   width: 100%;
+  list-style: none;
+}
+.sub-menu div {
+  border-radius: 8px;
+  display: inline-block;
+  margin: 20px 10px;
+  position: relative;
+}
+.sub-menu ul div li {
+   color: #fff;
+   font-weight:bold;
+   height: 50%;
+   list-style:none;
+   position: relative;
+   text-align: center;
+   transform: translateY(50%);
+}
+.light{
+  padding: 10px;
+}
+.botones{
+  background-color: #aae5e9;
+}
+main {
+  margin: 0px;
+  padding:0px 20px;
+  position: relative;
+  top:140px;
+  width: 100%;
+}
+.column{
+  width: 30%;
+  float: left;
+  margin:0px 5px 0px 5px;
+  padding:0px;
+
+}
+.column figure img {
+  display: inline-block;
   border-radius: 20px;
+  width: 100%;
+
+}
+figure a {
+text-decoration: none;
+color: #000;
 }
 
-.imagenes .posts .text{
-    float: left;
-    width: 70%;
-    margin-top: 15px;
-    display: block;
- }
+h4{
+  display:inline-block;
+}
+.text p{
+  width:100%;
+  margin-top: 10px;
+  text-align:left;
+}
+.icon-pushpin, .icon-checkmark {
+  font-size: 10px;
+  color:#686868;
+}
+.circle{
+  background-color:#d597a1;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  top:4px;
+  padding:2px 6px;
+}
+.user-name{
+  position: relative;
+  top: 6px;
+  font-weight: bold;
+}
 
- .imagenes .posts h4{
-    margin-bottom: 10px;
- }
-
- .imagenes .posts .usser{
-   margin-top: 12px;
-   font-size: 15px;
- }
-
- .imagenes .posts .usser .circle{
-   width: 30px;
-   height: 30px;
-   background-color: #d597a1;
-   border-radius: 50px;
-   margin-right: 3px;
-   margin-top: -5px;
-   text-align: center;
-   float: left;
- }
-
-.imagenes .posts .usser .circle .usser-letter {
-    color: #fff;
-    font-weight: 700;
-    position: relative;
-    top: 6px;
- }
-
- .imagenes .posts .usser .usser-name {
-   font-weight: 700;
+.hashtag{
+  display: block;
+  position: relative;
+  left: 35px;
+  z-index: inherit;
 }
